@@ -10,3 +10,16 @@ Use a transition to scale the button when you hover your mouse over it.
 - Does the button grow when you hover it?
 - Do other properties of the button remain unchanged?
 - Does the `:hover` pseudo-class trigger the transition?
+
+### Solution
+
+```css
+button {
+    transition: all .2s ease-in-out;
+}
+
+button:hover {
+    transform: scale(1.5);
+}
+```
+
