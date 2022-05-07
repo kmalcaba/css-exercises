@@ -18,3 +18,27 @@ This will help you further practice adding classes and using class selectors, so
 - Does each element have a unique class name?
 - Did you use the grouping selector for styles that both elements share?
 - Did you make separate rules for the styles unique to each element?
+
+### Solution
+
+```html
+<button class="btn black">Click Me!</button>
+<button class="btn yellow">No, Click Me!</button>
+```
+
+```css
+.btn {
+    font-size: 28px;
+    font-family: 'Helvetica', 'Times New Roman', sans-serif;
+}
+
+.btn.black {
+    background-color: #000;
+    color: #fff;
+}
+
+.btn.yellow {
+    background-color: #ffff00;
+}
+```
+
