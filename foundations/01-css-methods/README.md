@@ -23,7 +23,7 @@ The properties you need to add to each element are:
 ### Solution
 
 ```css
-// styles.css
+/* styles.css */
 div {
     background-color: red;
     color: white;
