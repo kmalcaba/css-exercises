@@ -19,3 +19,32 @@ The properties you need to add to each element are:
 - Does the `div` element have CSS added via the external method?
 - Does the `p` element have CSS added via the internal method?
 - Does the `button` element have CSS added via the inline method?
+
+### Solution
+
+```css
+// styles.css
+div {
+    background-color: red;
+    color: white;
+    font-size: 32px;
+    text-align: center;
+    font-weight: bold;
+}
+```
+
+```html
+<head>
+    <style>
+        p {
+            background-color: green;
+            color: white;
+            font-size: 18px;
+        }
+    </style>
+</head>
+```
+
+```html
+<button style="background-color: orange; font-size: 18px;">Inline Method</button>
+```
