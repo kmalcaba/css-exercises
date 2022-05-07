@@ -16,3 +16,15 @@ The properties you need to add are:
 ### Self Check
 - Do the elements that contain the text "This should be styled" have the correct styles applied?
 - Do the elements that contain the text "This should be unstyled" have no styles applied?
+
+### Solution
+
+```css
+div.container p.text {
+    background-color: #f1f12b;
+    color: #a00000;
+    font-size: 20px;
+    text-align: center;
+}
+```
+
