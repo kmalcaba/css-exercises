@@ -31,3 +31,29 @@ On a smaller screen it will look like this:
 - The sidebar has 16px padding.
 - There is 32px padding around the 'cards' section.
 - The cards are arranged horizontally, but wrap to multiple lines when they run out of room on the page.
+
+### Solution
+
+```css
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    font-size: 32px;
+    font-weight: 900;
+    display: flex;
+    align-items: center;
+    padding-left: 16px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.c
+```
+
