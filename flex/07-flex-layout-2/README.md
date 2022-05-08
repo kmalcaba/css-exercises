@@ -54,6 +54,40 @@ body {
     align-items: center;
 }
 
-.c
+.container {
+    display: flex;
+    flex: 1;
+}
+
+.sidebar {
+    flex: 1 0 auto;
+    padding: 16px;
+    box-sizing: border-box;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar ul li a {
+  font-size: 24px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 32px;
+  gap: 16px;
+}
+
+.card {
+    flex: 0 0 250px;
+    height: 300px;
+    padding: 10px;
+}
 ```
 
