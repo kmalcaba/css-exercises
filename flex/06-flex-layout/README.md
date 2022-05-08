@@ -25,7 +25,11 @@ Flexbox is useful for laying out entire pages as well as the smaller components 
 
 ```css
 ul {
-  list-style-type: none;
+  list-style: none;
+  display: flex;
+  gap: 16px;
+  padding: 0;
+  margin: 0;
 }
 
 a {
@@ -43,18 +47,11 @@ body {
 }
 
 .header, .footer {
-  padding: 10px;
+  padding: 16px;
 }
 
 .footer {
   background-color: #eee;
-}
-
-.left-links, .right-links {
-  display: flex;
-  gap: 15px;
-  padding: 0;
-  margin: 10px;
 }
 
 .content {
