@@ -5,6 +5,7 @@
 
 .container {
   text-align: center;
+  display: grid;
 }
 
 .container div {
@@ -17,15 +18,22 @@
 
 .header {
   background-color: #393f4d;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  align-items: center;
 }
 
 .logo {
+  justify-self: start;
 }
 
 .menu {
 }
 
 .menu ul {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
 
 .menu ul,
@@ -34,7 +42,7 @@
 }
 
 .sidebar {
-  background-color: #FF7755;
+  background-color: #ff7755;
 }
 
 .sidebar .photo {
@@ -45,7 +53,7 @@
   border-radius: 10px;
 }
 
-.photo  {
+.photo {
 }
 
 .sidebar .side-content {
@@ -56,10 +64,11 @@
 }
 
 .nav {
-  background-color: #FF7755;
+  background-color: #ff7755;
 }
 
 .nav ul {
+  list-style: none;
 }
 
 .nav ul li {
@@ -79,7 +88,7 @@
 }
 
 .article .card {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   color: black;
   text-align: center;
 }
@@ -101,5 +110,5 @@
 
 .footer p {
   font-size: 13px;
-  font-weight: normal;  
+  font-weight: normal;
 }
