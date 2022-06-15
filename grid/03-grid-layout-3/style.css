@@ -81,7 +81,7 @@
 .nav ul {
   list-style: none;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: repeat(3, minmax(300px, 1fr));
 }
 
 .nav ul li {
@@ -93,6 +93,9 @@
   background-color: #bccbde;
   grid-column: 2 / 3;
   grid-row: 3;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
 }
 
 .article p {
@@ -112,11 +115,13 @@
   color: black;
   font-weight: normal;
   font-size: 14px;
+  padding-bottom: 60px;
 }
 
 .card .title {
   font-size: 18px;
   text-align: center;
+  padding-bottom: 20px;
 }
 
 .footer {
