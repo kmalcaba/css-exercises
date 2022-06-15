@@ -83,7 +83,7 @@
 .nav ul {
   list-style: none;
   display: grid;
-  grid-template-columns: repeat(3, minmax(300px, 1fr));
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 .nav ul li {
