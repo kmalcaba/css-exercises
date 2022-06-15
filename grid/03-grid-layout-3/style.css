@@ -111,13 +111,13 @@
   background-color: #ffffff;
   color: black;
   text-align: center;
+  height: 200px;
 }
 
 .card p {
   color: black;
   font-weight: normal;
   font-size: 14px;
-  padding-bottom: 60px;
 }
 
 .card .title {
